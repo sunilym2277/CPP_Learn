@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Engineer Interview - Round 2: Design & Architecture</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .section {
+            background: #f8f9fa;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .code {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .question {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 15px 0;
+        }
+        .critical {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        .bonus {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        h1, h2, h3 { color: #2d3748; }
+        h1 { margin-top: 0; }
+        .time-box {
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        ul li { margin: 8px 0; }
+        .highlight { background: #ffeb3b; padding: 2px 4px; border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🛠️ C++ Engineer Interview - Round 2</h1>
+        <h2>Design & Architecture Deep Dive</h2>
+        <div class="time-box">⏱️ Time Limit: 30 minutes</div>
+    </div>
+
+    <div class="section">
+        <h2>📋 Round 2 Overview</h2>
+        <p>Based on your analysis in Round 1, we'll now dive deeper into design and architecture. Your task is to:</p>
+        <ul>
+            <li><strong>Design production-ready solutions</strong> for the identified issues</li>
+            <li><strong>Apply C++ best practices</strong> and design patterns</li>
+            <li><strong>Consider advanced topics</strong> like thread safety and performance</li>
+            <li><strong>Create testable, maintainable code</strong> architecture</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>⚡ Design Improvements (30 minutes)</h2>
+
+        <div class="question">
+            <h3>Question 1: C++ Wrapper Design</h3>
+            <p><strong>Design a C++ wrapper class</strong> that addresses the testability issues. Your solution should:</p>
+            <ul>
+                <li>Follow RAII principles</li>
+                <li>Be easily mockable for testing</li>
+                <li>Handle the C SDK safely</li>
+                <li>Provide type safety</li>
+            </ul>
+
+            <p><strong>Provide a basic class interface</strong> (header only) with brief explanations.</p>
+        </div>
+
+        <div class="bonus">
+            <h3>🌟 Question 2: Thread Safety</h3>
+            <p><strong>How would you make this SDK thread-safe?</strong> What are the specific concurrency concerns, and what C++ mechanisms would you use?</p>
+        </div>
+
+        <div class="question">
+            <h3>Question 3: Testing Strategy</h3>
+            <p><strong>Design a comprehensive testing strategy</strong> for your wrapper class:</p>
+            <ul>
+                <li>How would you structure unit tests?</li>
+                <li>What would you mock and why?</li>
+                <li>How would you test error conditions?</li>
+                <li>What integration tests would you write?</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

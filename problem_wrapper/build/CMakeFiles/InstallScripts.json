@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Shilpa/OneDrive/Desktop/Learn/coding_problem (1)/coding_problem/problem/build/cmake_install.cmake",
+		"C:/Users/Shilpa/OneDrive/Desktop/Learn/coding_problem (1)/coding_problem/problem/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/Shilpa/OneDrive/Desktop/Learn/coding_problem (1)/coding_problem/problem/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/Shilpa/OneDrive/Desktop/Learn/coding_problem (1)/coding_problem/problem/build/_deps/googletest-build/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,2 @@
+C:\PROGRA~1\mingw32\bin\ar.exe qc lib\libsimple_sdk.a CMakeFiles/simple_sdk.dir/simple_sdk.c.obj CMakeFiles/simple_sdk.dir/Logger.cpp.obj
+C:\PROGRA~1\mingw32\bin\ranlib.exe lib\libsimple_sdk.a

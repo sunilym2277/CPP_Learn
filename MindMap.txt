@@ -1,0 +1,55 @@
+Design patterns https://refactoring.guru/design-patterns/strategy
+https://sourcemaking.com/design_patterns
+1. Factory Method (done)
+2.Abstract Factory Method (done)
+3.Builder
+4.Prototype (done)
+5.SingleTon (done)
+
+6.Adapter (done)
+7.Brdge (done)
+8.Decorator (done)
+9.Facade (done)
+10.Proxy (done)
+
+11.Command
+12.Observer
+13.Strategy
+
+Focus: Live coding session
+
+Writing clean, efficient, and bug-free code
+Error handling
+Understanding of OOPs concepts
+ 
+
+ Technical Interview – Round 2(July 21, Monday)
+
+ Focus: Problem Solving
+
+Choose correct Design Patterns to resolve specific problem
+Client side project build tooling, and Compilation process
+Modern C++, and deep dive to standard library
+Diagnosing race conditions, deadlocks, and memory corruption.
+Performance, Profiling, and Debugging
+
+gmock
+jomock
+
+"C:\\Users\\Shilpa\\OneDrive\\Desktop\\Learn\\googletest\\googletest\\include",
+"C:\\Users\\Shilpa\\OneDrive\\Desktop\\Learn\\googletest\\googlemock\\include"
+
+
+🔹 My take for your project
+
+Wrapper/Facade = ✅ Must have (you already did it).
+
+PImpl = ✅ You’re already following industry best practices.
+
+Strategy = Worth considering if you want multiple backends (file logger, remote logger, test logger).
+
+Observer = If you foresee multiple consumers of logs (analytics + monitoring).
+
+Decorator = If you want to layer features (retry, async, filtering) cleanly.
+
+Singleton = Optional, but a common real-world choice.
